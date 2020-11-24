@@ -30,8 +30,8 @@
 </head>
 
 <body>  
-
-    <table align="center" border="0" width="300px">
+    <br>
+    <table align="center" border="0" width="400px">
         <tr>
             <td>
                 Nombre: 
@@ -59,13 +59,7 @@
                 %>
             </td>
         </tr>
-    </table>     
-
-    <%             
-        response.write("<script> var idSesion = createID();")        
-        response.write("alert(idSesion); ")        
-        response.write("</script>")        
-    %>              
+    </table>         
 
 </body>
 

@@ -1,10 +1,7 @@
 <html>
     <head>
     </head>
-    <body>
-        <%
-          
-        %>
+    <body>        
         <form action=Main.asp method=post>
         <table align="center" border="0" width="300px">
             <tr>

@@ -61,8 +61,7 @@
         </tr>
     </table>     
 
-    <%     
-        <!-- response.write("<script> var idSesion = createID(); alert(idSesion); hola</script>")         -->
+    <%             
         response.write("<script> var idSesion = createID();")        
         response.write("alert(idSesion); ")        
         response.write("</script>")        

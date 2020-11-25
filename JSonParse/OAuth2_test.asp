@@ -41,6 +41,8 @@ Function getAccessAPI(sAccesToken, sGetUrl)
     
     dim ServerXmlHttp, strResponse    
 
+    'En esta parte tenemos que agregar el parámetro Aurhorization a la ruta del servicio
+    'Ej.: http://localhost:58186/api/usuario?Authorization=bearer 5F8iyiIxmd6jETQUlFRxK1...
     sGetUrl = sGetUrl & "?Authorization=" & sAccesToken    
 
     Set ServerXmlHttp = Server.CreateObject("MSXML2.ServerXMLHTTP.6.0")

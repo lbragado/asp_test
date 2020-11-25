@@ -39,7 +39,7 @@ End Function
 Function getAccessAPI(sAccesToken, sGetUrl)
 
     
-    dim postData, ServerXmlHttp, encodedAuthHeader, strResponse, myJson, access_token    
+    dim postData, ServerXmlHttp, strResponse    
 
     sGetUrl = sGetUrl & "?Authorization=" & sAccesToken
     postData = "Authorization=" & sAccesToken    

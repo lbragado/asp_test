@@ -39,10 +39,9 @@ End Function
 Function getAccessAPI(sAccesToken, sGetUrl)
 
     
-    dim postData, ServerXmlHttp, strResponse    
+    dim ServerXmlHttp, strResponse    
 
-    sGetUrl = sGetUrl & "?Authorization=" & sAccesToken
-    postData = "Authorization=" & sAccesToken    
+    sGetUrl = sGetUrl & "?Authorization=" & sAccesToken    
 
     Set ServerXmlHttp = Server.CreateObject("MSXML2.ServerXMLHTTP.6.0")
     ServerXmlHttp.open "GET", sGetUrl, false

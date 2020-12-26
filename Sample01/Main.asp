@@ -1,7 +1,7 @@
 
 <%
 
-    <!-- Paso de parámetros entre páginas POST-->    
+    <!-- Paso de parámetros entre páginas POST.-->    
     dim name, idRol, rolDescription
     name=Request.form("user") 
     idRol=Request.form("rol")
